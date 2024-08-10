@@ -17,7 +17,7 @@ const About2 = () => {
                 <h2 className="font-bold text-3xl lg:text-4xl text-color dark:text-neutral-200">
                   Arc Synergy Limited
                 </h2>
-                <p className="text-color dark:text-neutral-500">
+                <p className="text-black dark:text-neutral-500">
                   Arc Synergy Limited is an
                   indigenous energy services company incorporated to deliver
                   excellent procurement and technical support services to the

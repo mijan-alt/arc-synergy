@@ -35,7 +35,7 @@ const BusinessDivision = () => {
         <h2 className="text-2xl font-bold text-color md:text-4xl md:leading-tight dark:text-white">
           Partners for Progress
         </h2>
-        <p className="mt-1 text-color dark:text-neutral-400">
+        <p className="mt-1 text-black dark:text-neutral-400">
           Our four business divisions come together to ensure that the partners
           we work for deliver products that power the nation and deliver
           prosperity to the
