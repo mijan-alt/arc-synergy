@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
+import { Albert_Sans } from "next/font/google";
 import PrelineScript from "@/components/preline/Preline";
 
 
-const inter = Inter({ subsets: ["latin"] });
+
+const sans = Albert_Sans({ subsets: ["latin"] });
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={sans.className}>{children}</body>
       <PrelineScript />
     </html>
   );

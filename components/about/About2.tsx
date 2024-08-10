@@ -11,11 +11,14 @@ const About2 = () => {
             <div className="space-y-6 sm:space-y-8">
               {/* Title */}
               <div className="space-y-2 md:space-y-4">
+                <h3 className='text-color'>
+                  About us
+                </h3>
                 <h2 className="font-bold text-3xl lg:text-4xl text-color dark:text-neutral-200">
                   Arc Synergy Limited
                 </h2>
                 <p className="text-color dark:text-neutral-500">
-                  About us Arc Synergy Limited Arc Synergy Limited is an
+                  Arc Synergy Limited is an
                   indigenous energy services company incorporated to deliver
                   excellent procurement and technical support services to the
                   energy industry in Africa. Our commitment to excellence,

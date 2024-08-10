@@ -50,20 +50,28 @@ const BusinessDivision = () => {
             className="aspect-square relative group overflow-hidden"
           >
             {division.image ? (
-              <img
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                src={division.image}
-                alt={division.title}
-              />
+              <>
+                <img
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                  src={division.image}
+                  alt={division.title}
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-50 transition-opacity duration-300 group-hover:bg-opacity-75"></div>
+              </>
             ) : (
               <div
                 className="absolute inset-0 w-full h-full transition-opacity duration-300 group-hover:opacity-80"
                 style={{ backgroundColor: division.backgroundColor }}
               ></div>
             )}
-            <div className="absolute inset-0 bg-black bg-opacity-50 transition-opacity duration-300 group-hover:bg-opacity-75"></div>
-            <div className="absolute inset-0 flex flex-col justify-center items-center p-4 text-white">
-              <h2 className="text-xl font-bold mb-2">{division.title}</h2>
+            <div
+              className={`absolute inset-0 flex flex-col justify-center items-center p-4  ${
+                division.title === "Petroleum and Allied Procurement and Supply" ? 'text-black':'text-white'
+              }`}
+            >
+              <h2 className="text-xl font-bold mb-2 text-center">
+                {division.title}
+              </h2>
               <p className="text-sm overflow-y-auto max-h-[calc(100%-2rem)] text-center">
                 {division.content}
               </p>
@@ -78,9 +86,7 @@ const BusinessDivision = () => {
         >
           Contact us
         </button>
-        <span className="text-sm">
-          Download our profile
-         </span>
+        <span className="text-sm">Download our profile</span>
       </div>
     </div>
   );

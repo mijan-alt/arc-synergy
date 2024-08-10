@@ -3,9 +3,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 const Footer = () => {
     return (
-      <footer className="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
+      <footer className=" relative mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-[url('/assets/gas.jpeg')] bg-cover bg-center bg-no-repeat">
+        <div className="absolute inset-0 bg-white opacity-80"></div>
         {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-5 relative z-10">
           <div>
             <Link
               className="flex-none text-xl font-semibold text-black focus:outline-none dark:text-white"
@@ -33,7 +34,7 @@ const Footer = () => {
             <li className="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-neutral-600">
               <Link
                 className="inline-flex gap-x-2 text-sm text-color hover:text-gray-800 focus:outline-none focus:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
-                href="/"
+                href="/about"
               >
                 About us
               </Link>
@@ -49,7 +50,7 @@ const Footer = () => {
             <li className="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-neutral-600">
               <Link
                 className="inline-flex gap-x-2 text-sm text-color hover:text-gray-800 focus:outline-none focus:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
-                href="#"
+                href=""
               >
                 Download profile
               </Link>
@@ -139,7 +140,7 @@ const Footer = () => {
           {/* End Social Brands */}
         </div>
         {/* End Grid */}
-        <div className="flex flex-row justify-around items-center mt-4">
+        <div className="flex flex-wrap justify-center items-center gap-4 mt-4 mx-auto max-w-4xl relative z-10">
           <span className="text-sm text-color">
             © 2024 Arc Synergy Limited. All rights reserved.
           </span>

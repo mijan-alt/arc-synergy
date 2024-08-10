@@ -81,8 +81,8 @@ const Nav = () => {
                   <div className="flex flex-col md:flex-row md:justify-end md:items-center gap-0.5 md:gap-1">
                     <Link
                       className={`p-2 flex items-center text-sm ${
-                        pathname == "/" && "bg-gray-100"
-                      } hover:bg-gray-100 rounded-lg focus:outline-none text-color focus:bg-gray-100 dark:bg-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700`}
+                        pathname == "/" && "active-border"
+                      } hover:active-border focus:outline-none text-color dark:bg-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700`}
                       href="/"
                       aria-current="page"
                     >
@@ -228,8 +228,8 @@ const Nav = () => {
 
                     <Link
                       className={`p-2 flex items-center text-sm ${
-                        pathname == "/about" && "bg-gray-100"
-                      } text-color hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100 dark:bg-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700`}
+                        pathname == "/about" && "active-border"
+                      } hover:active-border focus:outline-none text-color dark:bg-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700`}
                       href="/about"
                     >
                       <svg
@@ -250,7 +250,10 @@ const Nav = () => {
                       About Us
                     </Link>
                     <Link
-                      className="p-2 flex items-center text-sm text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+        
+                      className={`p-2 flex items-center text-sm ${
+                        pathname == "/contact" && "active-border"
+                      } hover:active-border focus:outline-none text-color dark:bg-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700`}
                       href="/contact"
                     >
                       <svg

@@ -14,3 +14,7 @@
 .primary-green {
     color:#A0CA3C
 }
+
+.active-border {
+  @apply border-b-2 border-[#2A2B6A];
+}
