@@ -1,6 +1,7 @@
-
+"use client"
 import React from "react";
 import { Ship } from "lucide-react";
+import Link from "next/link";
 
 const About = () => {
  const Abouts = [
@@ -129,6 +130,31 @@ const About = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="mt-5">
+          <Link href={'/about'}>
+            <button
+              type="button"
+              className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-gray-200 text-black  shadow-sm hover:bg-gray-50 focus:outline-none disabled:opacity-50 disabled:pointer-events-none "
+            >
+              About us
+              <svg
+                className="shrink-0 size-4"
+                xmlns="http://www.w3.org/2000/svg"
+                width={24}
+                height={24}
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={2}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </button>
+          </Link>
         </div>
       </div>
       {/* End Icon Blocks */}

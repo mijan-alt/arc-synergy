@@ -21,7 +21,7 @@ const Commitment = () => {
                 and dedication to safety and environmental responsibility.
               </p>
             </div>
-            <button className="px-2 py-2 bg-[#A0CA3C] rounded-sm relative z-10 w-fit m-auto">
+            <button className="px-2 py-2 bg-[#A0CA3C] rounded-sm relative z-10 w-fit m-auto text-color font-bold">
               Download our profile
             </button>
           </div>

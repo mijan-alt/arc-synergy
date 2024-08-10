@@ -11,7 +11,7 @@ const About2 = () => {
             <div className="space-y-6 sm:space-y-8">
               {/* Title */}
               <div className="space-y-2 md:space-y-4">
-                <h3 className='text-color'>
+                <h3 className='text-color font-bold'>
                   About us
                 </h3>
                 <h2 className="font-bold text-3xl lg:text-4xl text-color ">

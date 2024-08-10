@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const businessDivisions = [
   {
@@ -82,13 +83,16 @@ const BusinessDivision = () => {
         ))}
       </div>
       <div className="mt-4 flex flex-row items-center space-x-2">
-        <button
-          type="button"
-          className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none "
-        >
-          Contact us
-        </button>
-        <span className="text-sm">Download our profile</span>
+        <Link href={'/contact'}>
+          <button
+            type="button"
+            className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-gray-200 bg-white shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none "
+          >
+            Contact us
+          </button>
+        </Link>
+
+        <span className="text-sm ">Download our profile</span>
       </div>
     </div>
   );
