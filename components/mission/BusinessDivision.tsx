@@ -5,29 +5,25 @@ const businessDivisions = [
     title: "Marine Services",
     content:
       "We provide reliable and efficient marine services to ensure smooth operations for onshore and offshore projects, shipping companies, and port facilities. Our experienced team and partnerships enable us to meet the diverse needs of the maritime industry while adhering to international safety and environmental standards.",
-    image:
-      "https://images.unsplash.com/photo-1574950578143-858c6fc58922?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80",
+    image: "/assets/marine-services.jpg",
   },
   {
     title: "Oil and Gas Offshore Services",
     content:
-      "Arc Synergy’s offshore services are designed to enhance efficiency, safety, and productivity in offshore oil and gas operations. We employ highly skilled personnel and adhere to the highest industry standards to help our clients deliver exceptional results.",
-    image:
-      "https://images.unsplash.com/photo-1574950578143-858c6fc58922?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80",
+      "Arc Synergy's offshore services are designed to enhance efficiency, safety, and productivity in offshore oil and gas operations. We employ highly skilled personnel and adhere to the highest industry standards to help our clients deliver exceptional results.",
+    backgroundColor: "#2A2B6A", // Deep blue color
   },
   {
     title: "Vehicle Leasing",
     content:
       "We offer customisable lease terms, comprehensive maintenance packages, and fleet management solutions to ensure maximum uptime and operational efficiency for our clients without the associated liabilities of vehicle ownership.",
-    image:
-      "https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    image: "/assets/mybenz.jpeg",
   },
   {
     title: "Petroleum and Allied Procurement and Supply",
     content:
-      "Arc Synergy Limited’s procurement and supply services for petroleum and allied products ensure a steady and reliable supply chain for our clients.We leverage our industry network and expertise to provide cost-effective procurement solutions while ensuring product quality and timely delivery.",
-    image:
-      "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "Arc Synergy Limited's procurement and supply services for petroleum and allied products ensure a steady and reliable supply chain for our clients. We leverage our industry network and expertise to provide cost-effective procurement solutions while ensuring product quality and timely delivery.",
+    backgroundColor: "#ECF4D8", // Amber color
   },
 ];
 
@@ -53,11 +49,18 @@ const BusinessDivision = () => {
             key={index}
             className="aspect-square relative group overflow-hidden"
           >
-            <img
-              className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-              src={division.image}
-              alt={division.title}
-            />
+            {division.image ? (
+              <img
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                src={division.image}
+                alt={division.title}
+              />
+            ) : (
+              <div
+                className="absolute inset-0 w-full h-full transition-opacity duration-300 group-hover:opacity-80"
+                style={{ backgroundColor: division.backgroundColor }}
+              ></div>
+            )}
             <div className="absolute inset-0 bg-black bg-opacity-50 transition-opacity duration-300 group-hover:bg-opacity-75"></div>
             <div className="absolute inset-0 flex flex-col justify-center items-center p-4 text-white">
               <h2 className="text-xl font-bold mb-2">{division.title}</h2>
@@ -67,6 +70,17 @@ const BusinessDivision = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="mt-4 flex flex-row items-center space-x-2">
+        <button
+          type="button"
+          className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+        >
+          Contact us
+        </button>
+        <span className="text-sm">
+          Download our profile
+         </span>
       </div>
     </div>
   );

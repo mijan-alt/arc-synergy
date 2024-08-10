@@ -5,16 +5,20 @@ import About2 from '@/components/about/About2'
 import BusinessDivision from '@/components/mission/BusinessDivision'
 import Values from '@/components/about/Values'
 import VisionMission from '@/components/about/VisionMission'
+import AboutHero from '@/components/about/AboutHero'
+import Footer from '@/components/footer/Footer'
+
 
 const page = () => {
   return (
       <>
-         <Nav />
-        <Hero />
+       <Nav />
+      <AboutHero />
       <About2 />
       <BusinessDivision />
       <Values />
-      <VisionMission/>
+      <VisionMission />
+      <Footer/>
       </>
   )
 }

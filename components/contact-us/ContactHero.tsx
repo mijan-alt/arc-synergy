@@ -1,7 +1,7 @@
 import React from "react";
 import { MoveRight } from "lucide-react";
 
-const Hero = () => {
+const ContactHero = () => {
   return (
     <div>
       {/* Slider */}
@@ -16,24 +16,15 @@ const Hero = () => {
             <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
               {/* Item */}
               <div className="hs-carousel-slide w-full">
-                <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/hero.png')] bg-cover bg-center bg-no-repeat">
+                <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/contact-us.jpg')] bg-cover bg-center bg-no-repeat">
                   <div className="absolute inset-0 bg-black opacity-50"></div>
                   <div className="mt-auto w-full ps-5 pb-5 md:ps-10 md:pb-10 relative z-10">
                     <span className="block text-white text-xl md:text-3xl">
-                      Contact Us
+                       Contact us
                     </span>
                     <span className="block text-white max-w-[768px] ">
-                      Find contact details for Arc Synergy or connect with us to
-                      submit any media, partnership or investor enquiries.
+                     Find Contact details for Async Synergy or connect with us to submit any media, partnership or investor enquiries
                     </span>
-                    <div className="mt-5">
-                      <a
-                        className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded bg-[#A0CA3C] border border-transparent text-black hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
-                        href="#"
-                      >
-                        <span></span>
-                      </a>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -53,4 +44,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default ContactHero;

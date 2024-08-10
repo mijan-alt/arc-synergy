@@ -82,7 +82,7 @@ const Nav = () => {
                     <Link
                       className={`p-2 flex items-center text-sm ${
                         pathname == "/" && "bg-gray-100"
-                      } hover:bg-gray-100 rounded-lg focus:outline-none text-[#2A2B6A] focus:bg-gray-100 dark:bg-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700`}
+                      } hover:bg-gray-100 rounded-lg focus:outline-none text-color focus:bg-gray-100 dark:bg-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700`}
                       href="/"
                       aria-current="page"
                     >
@@ -229,7 +229,7 @@ const Nav = () => {
                     <Link
                       className={`p-2 flex items-center text-sm ${
                         pathname == "/about" && "bg-gray-100"
-                      } text-[#2A2B6A] hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100 dark:bg-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700`}
+                      } text-color hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100 dark:bg-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700`}
                       href="/about"
                     >
                       <svg
@@ -247,7 +247,7 @@ const Nav = () => {
                         <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
                         <circle cx={12} cy={7} r={4} />
                       </svg>
-                      About
+                      About Us
                     </Link>
                     <Link
                       className="p-2 flex items-center text-sm text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
@@ -270,7 +270,7 @@ const Nav = () => {
                         <path d="M22 13a18.15 18.15 0 0 1-20 0" />
                         <rect width={20} height={14} x={2} y={6} rx={2} />
                       </svg>
-                      Contact
+                      Contact Us
                     </Link>
                   </div>
                 </div>
@@ -278,7 +278,12 @@ const Nav = () => {
                   <div className="w-full h-px md:w-px md:h-4 bg-gray-100 md:bg-gray-300 dark:bg-neutral-700" />
                 </div> */}
                 {/* Button Group */}
-
+                <button
+                  type="button"
+                  className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium  border border-transparent blue-background text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+                >
+                  Download Profile
+                </button>
                 {/* End Button Group */}
               </div>
             </div>

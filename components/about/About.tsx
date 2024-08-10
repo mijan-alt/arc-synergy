@@ -8,7 +8,9 @@ const About = () => {
      title: "Marine Services",
      icon: (
        <svg
-         className="shrink-0 size-6 text-[#A0CA3C] dark:text-[#A0CA3C]"
+         className="text-[#A0CA3C] dark:text-[#A0CA3C]"
+         width="24"
+         height="25"
          viewBox="0 0 24 24"
          xmlns="http://www.w3.org/2000/svg"
          fill="currentColor"
@@ -23,7 +25,9 @@ const About = () => {
      title: "Oil and Gas Off shore services",
      icon: (
        <svg
-         className="shrink-0 size-6 text-[#A0CA3C] dark:text-[#A0CA3C]"
+         className="text-[#A0CA3C] dark:text-[#A0CA3C]"
+         width="24"
+         height="25"
          viewBox="0 0 24 24"
          xmlns="http://www.w3.org/2000/svg"
          fill="currentColor"
@@ -44,7 +48,9 @@ const About = () => {
      title: "Oil and Gas Off shore services",
      icon: (
        <svg
-         className="shrink-0 size-6 text-[#A0CA3C] dark:text-[#A0CA3C]"
+         className="text-[#A0CA3C] dark:text-[#A0CA3C]"
+         width="24"
+         height="25"
          viewBox="0 0 24 24"
          fill="none"
          xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +70,9 @@ const About = () => {
      title: "Petroleum and Allied Procurement and Supply",
      icon: (
        <svg
-         className="shrink-0 size-6 text-[#A0CA3C] dark:text-[#A0CA3C]"
+         className="text-[#A0CA3C] dark:text-[#A0CA3C]"
+         width="24"
+         height="25"
          fill="currentColor"
          xmlns="http://www.w3.org/2000/svg"
          viewBox="0 0 470.389 470.388"
