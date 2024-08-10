@@ -12,7 +12,7 @@ const Mission = () => {
               <h2 className="text-sm text-[#2A2B6A] font-bold lg:text-2xl text-center ">
                 Our Mission
               </h2>
-              <p className="mt-3 text-[#2A2B6A]  ">
+              <p className="mt-3 text-[#2A2B6A] text-center">
                 To deliver superior services and products for our partners
                 across our diverse business portfolio, driving economic growth
                 and development while maintaining the highest standards of

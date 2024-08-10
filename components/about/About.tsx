@@ -107,7 +107,12 @@ const About = () => {
         <h2 className=" text-[#2A2B6A] font-bold text-2xl mb-4">
           We are Partners in Progess
         </h2>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
+        <p className="text-color mt-4">
+          Our commitment to excellence, innovation, and sustainable practices
+          positions us as a preferred partner for players in each of the sectors
+          that we operate in.
+        </p>
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 mt-4">
           {/* Icon Block */}
           {Abouts.map((about, index) => (
             <div key={index} className="flex flex-col h-full">
@@ -120,9 +125,7 @@ const About = () => {
                 <h3 className="text-lg font-semibold text-[#2A2B6A]  mb-2">
                   {about.title}
                 </h3>
-                <p className="text-[#2A2B6A] ">
-                  {about.content}
-                </p>
+                <p className="text-[#2A2B6A] ">{about.content}</p>
               </div>
             </div>
           ))}
