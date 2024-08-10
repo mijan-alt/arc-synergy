@@ -1,8 +1,6 @@
-import React from 'react'
+import React from "react";
 
 const Address = () => {
-
-
   return (
     <>
       {/* Icon Blocks */}
@@ -29,10 +27,10 @@ const Address = () => {
               </svg>
             </div>
             <div className="mt-3">
-              <h3 className="text-lg font-semibold text-color dark:text-white">
+              <h3 className="text-lg font-semibold text-color :text-white">
                 Mailing Address Responsive
               </h3>
-              <p className="mt-1 text-color dark:text-neutral-400">
+              <p className="mt-1 text-color ">
                 Arc Synergy Nigeria Limited 63 Owudo Road, Abuloma, Port
                 Harcourt Rivers State, Nigeria
               </p>
@@ -56,10 +54,8 @@ const Address = () => {
               </svg>
             </div>
             <div className="mt-3">
-              <h3 className="text-lg font-semibold text-color dark:text-white">
-                Email
-              </h3>
-              <p className="mt-1 text-gray-600 dark:text-neutral-400">
+              <h3 className="text-lg font-semibold text-color ">Email</h3>
+              <p className="mt-1 text-gray-600 ">
                 services@arcsynergylimited.com
               </p>
             </div>
@@ -85,12 +81,10 @@ const Address = () => {
               </svg>
             </div>
             <div className="mt-3">
-              <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-                 Telephone
+              <h3 className="text-lg font-semibold text-gray-800 ">
+                Telephone
               </h3>
-              <p className="mt-1 text-gray-600 dark:text-neutral-400">
-                +2348022294836
-              </p>
+              <p className="mt-1 text-gray-600 ">+2348022294836</p>
             </div>
           </div>
           {/* End Icon Block */}
@@ -99,6 +93,6 @@ const Address = () => {
       {/* End Icon Blocks */}
     </>
   );
-}
+};
 
-export default Address
+export default Address;

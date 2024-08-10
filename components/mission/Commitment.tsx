@@ -10,10 +10,10 @@ const Commitment = () => {
           {/* Grid */}
           <div className="grid gap-12">
             <div className="relative z-10">
-              <h2 className="text-sm text-white font-bold lg:text-2xl text-center dark:text-white">
+              <h2 className="text-sm text-white font-bold lg:text-2xl text-center ">
                 We are committed to Excellence
               </h2>
-              <p className="mt-3 text-white text-center dark:text-neutral-400">
+              <p className="mt-3 text-white text-center ">
                 We are committed to delivering high-quality, innovative
                 solutions across our range of marine and oil & gas services. Our
                 integrated approach allows us to offer comprehensive support for

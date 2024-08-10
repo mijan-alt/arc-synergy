@@ -15,10 +15,10 @@ const VisionMission = () => {
             {" "}
             {/* Padding for content */}
             <div className="py-4 sm:py-6 lg:py-8">
-              <h3 className="text-sm text-start text-color dark:text-white">
+              <h3 className="text-sm text-start text-color ">
                 Our Vision
               </h3>
-              <p className="mt-1 font-bold text-color dark:text-neutral-400">
+              <p className="mt-1 font-bold text-color ">
                 To deliver superior services and products for our partners
                 across our diverse business portfolio, driving economic growth
                 and development while maintaining the highest standards of
@@ -30,10 +30,10 @@ const VisionMission = () => {
             {" "}
             {/* Padding for content */}
             <div className="py-4 sm:py-6 lg:py-8">
-              <h3 className="text-sm text-start text-color dark:text-white">
+              <h3 className="text-sm text-start text-color ">
                 Our mission
               </h3>
-              <p className="mt-1 font-bold text-color dark:text-neutral-400">
+              <p className="mt-1 font-bold text-color ">
                 To become the preferred partner in our operational sectors,
                 recognised for our expertise, reliability, and innovative
                 solutions that contribute to the progress of industries and

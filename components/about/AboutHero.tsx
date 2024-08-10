@@ -12,7 +12,7 @@ const AboutHero = () => {
     }'
           className="relative"
         >
-          <div className="hs-carousel relative overflow-hidden w-full h-[30rem] md:h-[calc(100vh-106px)]  bg-gray-100   dark:bg-neutral-800">
+          <div className="hs-carousel relative overflow-hidden w-full h-[30rem] md:h-[calc(100vh-106px)]  bg-gray-100  ">
             <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
               {/* Item */}
               <div className="hs-carousel-slide w-full">

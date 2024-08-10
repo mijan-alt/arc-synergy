@@ -8,7 +8,7 @@ const About = () => {
      title: "Marine Services",
      icon: (
        <svg
-         className="text-[#A0CA3C] dark:text-[#A0CA3C]"
+         className="text-[#A0CA3C]"
          width="24"
          height="25"
          viewBox="0 0 24 24"
@@ -25,7 +25,7 @@ const About = () => {
      title: "Oil and Gas Off shore services",
      icon: (
        <svg
-         className="text-[#A0CA3C] dark:text-[#A0CA3C]"
+         className="text-[#A0CA3C] "
          width="24"
          height="25"
          viewBox="0 0 24 24"
@@ -48,7 +48,7 @@ const About = () => {
      title: "Oil and Gas Off shore services",
      icon: (
        <svg
-         className="text-[#A0CA3C] dark:text-[#A0CA3C]"
+         className="text-[#A0CA3C] "
          width="24"
          height="25"
          viewBox="0 0 24 24"
@@ -70,7 +70,7 @@ const About = () => {
      title: "Petroleum and Allied Procurement and Supply",
      icon: (
        <svg
-         className="text-[#A0CA3C] dark:text-[#A0CA3C]"
+         className="text-[#A0CA3C] "
          width="24"
          height="25"
          fill="currentColor"
@@ -93,7 +93,7 @@ const About = () => {
     <>
       {/* Icon Blocks */}
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <h2 className="text-sm text-[#2A2B6A] font-bold lg:text-2xl dark:text-white mb-4">
+        <h2 className=" text-[#2A2B6A] font-bold text-2xl mb-4">
           We are Partners in Progess
         </h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
@@ -101,15 +101,15 @@ const About = () => {
           {Abouts.map((about, index) => (
             <div key={index} className="flex flex-col h-full">
               <div className="flex items-center mb-5">
-                <div className="relative flex justify-center items-center size-12 bg-white rounded-xl  dark:bg-neutral-900">
+                <div className="relative flex justify-center items-center size-12 bg-white rounded-xl ">
                   {about.icon}
                 </div>
               </div>
               <div className="flex-grow">
-                <h3 className="text-lg font-semibold text-[#2A2B6A] dark:text-white mb-2">
+                <h3 className="text-lg font-semibold text-[#2A2B6A]  mb-2">
                   {about.title}
                 </h3>
-                <p className="text-[#2A2B6A] dark:text-neutral-400">
+                <p className="text-[#2A2B6A] ">
                   {about.content}
                 </p>
               </div>

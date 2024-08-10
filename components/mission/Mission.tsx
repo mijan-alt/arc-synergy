@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Mission = () => {
   return (
@@ -9,10 +9,10 @@ const Mission = () => {
           {/* Grid */}
           <div className="grid gap-12">
             <div>
-              <h2 className="text-sm text-[#2A2B6A] font-bold lg:text-2xl text-center dark:text-white">
+              <h2 className="text-sm text-[#2A2B6A] font-bold lg:text-2xl text-center ">
                 Our Mission
               </h2>
-              <p className="mt-3 text-[#2A2B6A]  dark:text-neutral-400">
+              <p className="mt-3 text-[#2A2B6A]  ">
                 To deliver superior services and products for our partners
                 across our diverse business portfolio, driving economic growth
                 and development while maintaining the highest standards of
@@ -31,6 +31,6 @@ const Mission = () => {
       {/* End Icon Blocks */}
     </>
   );
-}
+};
 
-export default Mission
+export default Mission;

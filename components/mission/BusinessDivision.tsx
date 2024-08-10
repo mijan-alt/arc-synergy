@@ -32,10 +32,10 @@ const BusinessDivision = () => {
     <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       {/* Title */}
       <div className="max-w-2xl mb-10">
-        <h2 className="text-2xl font-bold text-color md:text-4xl md:leading-tight dark:text-white">
+        <h2 className="text-2xl font-bold text-color md:text-4xl md:leading-tight ">
           Partners for Progress
         </h2>
-        <p className="mt-1 text-black dark:text-neutral-400">
+        <p className="mt-1 text-black ">
           Our four business divisions come together to ensure that the partners
           we work for deliver products that power the nation and deliver
           prosperity to the
@@ -66,7 +66,9 @@ const BusinessDivision = () => {
             )}
             <div
               className={`absolute inset-0 flex flex-col justify-center items-center p-4  ${
-                division.title === "Petroleum and Allied Procurement and Supply" ? 'text-black':'text-white'
+                division.title === "Petroleum and Allied Procurement and Supply"
+                  ? "text-black"
+                  : "text-white"
               }`}
             >
               <h2 className="text-xl font-bold mb-2 text-center">
@@ -82,7 +84,7 @@ const BusinessDivision = () => {
       <div className="mt-4 flex flex-row items-center space-x-2">
         <button
           type="button"
-          className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+          className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none "
         >
           Contact us
         </button>

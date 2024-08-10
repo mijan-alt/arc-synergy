@@ -1,5 +1,5 @@
-import React from 'react'
-import { MoveRight } from 'lucide-react';
+import React from "react";
+import { MoveRight } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
     }'
           className="relative"
         >
-          <div className="hs-carousel relative overflow-hidden w-full h-[30rem] md:h-[calc(100vh-106px)]  bg-gray-100   dark:bg-neutral-800">
+          <div className="hs-carousel relative overflow-hidden w-full h-[30rem] md:h-[calc(100vh-106px)]  bg-gray-100  ">
             <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
               {/* Item */}
               <div className="hs-carousel-slide w-full">
@@ -31,7 +31,7 @@ const Hero = () => {
                     <div className="mt-5">
                       <button
                         type="button"
-                        className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-[#A0CA3C] bg-[#A0CA3C] text-white  shadow-sm  focus:outline-none disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+                        className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-[#A0CA3C] bg-[#A0CA3C] text-white  shadow-sm  focus:outline-none disabled:opacity-50 disabled:pointer-events-none "
                       >
                         Find out more
                         <svg
@@ -68,6 +68,6 @@ const Hero = () => {
       {/* End Slider */}
     </div>
   );
-}
+};
 
-export default Hero
+export default Hero;
