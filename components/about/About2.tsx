@@ -7,14 +7,14 @@ const About2 = () => {
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         {/* Grid */}
         <div className="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
-          <div className="mt-5 sm:mt-10 lg:mt-0">
+          <div className="mt-5 mb-2 sm:mt-10 lg:mt-0">
             <div className="space-y-6 sm:space-y-8">
               {/* Title */}
               <div className="space-y-2 md:space-y-4">
                 <h3 className='text-color font-bold'>
                   About us
                 </h3>
-                <h2 className="font-bold text-3xl lg:text-4xl text-color ">
+                <h2 className="font-extrabold text-3xl lg:text-4xl text-color ">
                   Arc Synergy Limited
                 </h2>
                 <p className="text-black ">
@@ -29,7 +29,7 @@ const About2 = () => {
                   services. Our integrated approach allows us to offer
                   comprehensive support for complex projects, backed by our
                   expertise, advanced technology, and dedication to safety and
-                  environmental responsibility. Button Button
+                  environmental responsibility. 
                 </p>
               </div>
               {/* End Title */}
