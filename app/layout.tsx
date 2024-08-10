@@ -9,7 +9,7 @@ const sans = Albert_Sans({ subsets: ["latin"] });
 
 
 export const metadata: Metadata = {
-  title: "Arc Energy",
+  title: "Arc Synergy",
   description: "Energy Company",
 };
 
