@@ -19,7 +19,7 @@ const AboutHero = () => {
                 <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/hero.png')] bg-cover bg-center bg-no-repeat">
                   <div className="absolute inset-0 bg-black opacity-65"></div>
                   <div className="mt-auto w-full ps-5 pb-5 md:ps-10 md:pb-10 relative z-10">
-                    <span className="block text-white text-xl md:text-[3.5rem] font-bold mb-6">
+                    <span className="block text-white  text-[2.5rem]  md:text-[3.5rem] font-bold mb-6">
                       Delivering Excellence
                     </span>
                     <span className="block text-white max-w-[768px] md:text-[1.5rem] ">

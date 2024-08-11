@@ -136,6 +136,8 @@ const Footer = () => {
         {/* End Social Brands */}
       </div>
       {/* End Grid */}
+      <hr className="mt-2 border border-b-gray-400"/>
+      
       <div className="flex flex-col justify-center items-center md:flex-row gap-4 mt-4 mx-auto max-w-4xl relative z-10">
         <span className="text-sm text-color hidden sm:block">
           © 2024 Arc Synergy Limited. All rights reserved.

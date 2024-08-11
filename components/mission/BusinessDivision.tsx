@@ -33,7 +33,7 @@ const BusinessDivision = () => {
     <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       {/* Title */}
       <div className="max-w-2xl mb-10">
-        <h2 className="text-2xl font-bold text-color md:text-5xl md:leading-tight ">
+        <h2 className="text-4xl mb-3 font-bold text-color md:text-5xl md:leading-tight ">
           Partners for Progress
         </h2>
         <p className="mt-1 text-black  md:text-[1.125rem]">
@@ -82,7 +82,7 @@ const BusinessDivision = () => {
           </div>
         ))}
       </div>
-      <div className="mt-4 flex flex-row items-center space-x-2">
+      <div className="mt-8 flex flex-row items-center justify-between md:space-x-2">
         <Link href={'/contact'}>
           <button
             type="button"
