@@ -38,11 +38,11 @@ const Values = () => {
     <>
       {/* Icon Blocks */}
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <div className="max-w-2xl mb-10">
-          <h2 className="text-2xl font-bold text-color md:text-5xl md:leading-tight ">
+        <div className="max-w-2xl mb-12">
+          <h2 className="text-4xl font-bold text-color md:text-5xl md:leading-tight ">
              Our Values
           </h2>
-         
+      
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-12">
           {/* Icon Block */}
@@ -50,10 +50,10 @@ const Values = () => {
           {values.map((value, index) => (
             <div key={index}>
               <div className="mt-5">
-                <h3 className="text-lg md:text-2xl font-bold text-color ">
+                <h3 className="text-xl md:text-2xl font-bold text-color ">
                   {value.title}
                 </h3>
-                <p className="mt-1 ">{value.content}</p>
+                <p className="mt-1  ">{value.content}</p>
               </div>
             </div>
           ))}

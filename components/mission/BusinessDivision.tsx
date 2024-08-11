@@ -86,13 +86,13 @@ const BusinessDivision = () => {
         <Link href={'/contact'}>
           <button
             type="button"
-            className="py-3 px-4 inline-flex items-center gap-x-2  border border-gray-200 bg-white shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none "
+            className="py-3 px-4 inline-flex items-center gap-x-2  border border-black bg-white shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none "
           >
             Contact us
           </button>
         </Link>
 
-        <span className="">Download our profile</span>
+        <span className="md:self-start">Download our profile</span>
       </div>
     </div>
   );

@@ -121,7 +121,7 @@ const About = () => {
           {/* Icon Block */}
           {Abouts.map((about, index) => (
             <div key={index} className="flex flex-col h-full mb-8">
-              <div className="flex items-center mb-5">
+              <div className="flex items-center mb-2">
                 <div className="relative flex justify-center items-center size-12 bg-white rounded-xl ">
                   {about.icon}
                 </div>
@@ -139,7 +139,7 @@ const About = () => {
           <Link href={"/about"}>
             <button
               type="button"
-              className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-gray-200 text-black  shadow-sm hover:bg-gray-50 focus:outline-none disabled:opacity-50 disabled:pointer-events-none "
+              className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-[#2A2B6A] hover:text-white text-color shadow-sm hover:bg-[#2a2b6a] focus:outline-none disabled:opacity-50 disabled:pointer-events-none "
             >
               About us
               <svg
