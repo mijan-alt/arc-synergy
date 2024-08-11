@@ -33,10 +33,10 @@ const BusinessDivision = () => {
     <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       {/* Title */}
       <div className="max-w-2xl mb-10">
-        <h2 className="text-2xl font-bold text-color md:text-4xl md:leading-tight ">
+        <h2 className="text-2xl font-bold text-color md:text-5xl md:leading-tight ">
           Partners for Progress
         </h2>
-        <p className="mt-1 text-black ">
+        <p className="mt-1 text-black  md:text-[1.125rem]">
           Our four business divisions come together to ensure that the partners
           we work for deliver products that power the nation and deliver
           prosperity to the
@@ -86,13 +86,13 @@ const BusinessDivision = () => {
         <Link href={'/contact'}>
           <button
             type="button"
-            className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-gray-200 bg-white shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none "
+            className="py-3 px-4 inline-flex items-center gap-x-2  border border-gray-200 bg-white shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none "
           >
             Contact us
           </button>
         </Link>
 
-        <span className="text-sm ">Download our profile</span>
+        <span className="">Download our profile</span>
       </div>
     </div>
   );

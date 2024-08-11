@@ -105,13 +105,17 @@ const About = () => {
     <>
       {/* Icon Blocks */}
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <h2 className=" text-[#2A2B6A] font-bold text-2xl mb-4">
+        <h2 className=" text-[#2A2B6A] font-bold text-2xl md:text-5xl mb-4">
           We are Partners in Progess
         </h2>
-        <p className="text-color mt-4">
-          Our commitment to excellence, innovation, and sustainable practices
-          positions us as a preferred partner for players in each of the sectors
-          that we operate in.
+        <p className="text-color mt-4 md:text-[1.25rem]">
+          <span className="md:block">
+            Our commitment to excellence, innovation, and sustainable
+          </span>
+          <span className="md:block">
+            practices positions us as a preferred partner for players in each of
+          </span>
+          <span className="md:block">the sectors that we operate in.</span>
         </p>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 mt-4">
           {/* Icon Block */}
@@ -123,7 +127,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex-grow">
-                <h3 className="text-lg font-semibold text-[#2A2B6A]  mb-2">
+                <h3 className="text-lg md:text-2xl font-bold text-[#2A2B6A]  mb-2">
                   {about.title}
                 </h3>
                 <p className="text-[#2A2B6A] ">{about.content}</p>
@@ -132,7 +136,7 @@ const About = () => {
           ))}
         </div>
         <div className="mt-5">
-          <Link href={'/about'}>
+          <Link href={"/about"}>
             <button
               type="button"
               className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-gray-200 text-black  shadow-sm hover:bg-gray-50 focus:outline-none disabled:opacity-50 disabled:pointer-events-none "

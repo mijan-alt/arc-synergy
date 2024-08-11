@@ -23,33 +23,33 @@ const Footer = () => {
         </div>
         {/* End Col */}
         <ul className="text-center">
-          <li className="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 ">
+          <li className="inline-block relative pe-8  ">
             <Link
-              className="inline-flex gap-x-2 text-sm text-color hover:text-gray-800 focus:outline-none focus:text-gray-800  "
+              className="inline-flex gap-x-2 text-sm text-color font-bold hover:text-gray-800 focus:outline-none focus:text-gray-800  "
               href="/"
             >
               Home
             </Link>
           </li>
-          <li className="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 ">
+          <li className="inline-block relative pe-8">
             <Link
-              className="inline-flex gap-x-2 text-sm text-color hover:text-gray-800 focus:outline-none focus:text-gray-800  "
+              className="inline-flex gap-x-2 text-sm text-color font-bold hover:text-gray-800 focus:outline-none focus:text-gray-800  "
               href="/about"
             >
               About us
             </Link>
           </li>
-          <li className="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 ">
+          <li className="inline-block relative pe-8  ">
             <Link
-              className="inline-flex gap-x-2 text-sm text-color hover:text-gray-800 focus:outline-none focus:text-gray-800  "
+              className="inline-flex gap-x-2 text-sm text-color font-bold hover:text-gray-800 focus:outline-none focus:text-gray-800  "
               href="/contact"
             >
               Contact us
             </Link>
           </li>
-          <li className="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 :before:text-neutral-600">
+          <li className="inline-block relative pe-8">
             <Link
-              className="inline-flex gap-x-2 text-sm text-color hover:text-gray-800 focus:outline-none focus:text-gray-800  "
+              className="inline-flex gap-x-2 text-sm text-color font-bold hover:text-gray-800 focus:outline-none focus:text-gray-800  "
               href=""
             >
               Download profile
