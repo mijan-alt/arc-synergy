@@ -26,11 +26,11 @@ const Address = () => {
                 />
               </svg>
             </div>
-            <div className="mt-3">
-              <h3 className="text-lg font-semibold text-color :text-white">
-                Mailing Address Responsive
+            <div className="mt-3 md:mt-[1.5rem]">
+              <h3 className="text-lg md:text-2xl font-bold text-color ">
+                Mailing Address
               </h3>
-              <p className="mt-1 text-color ">
+              <p className="mt-1 md:mt-[1.5rem] text-color ">
                 Arc Synergy Nigeria Limited 63 Owudo Road, Abuloma, Port
                 Harcourt Rivers State, Nigeria
               </p>
@@ -53,11 +53,11 @@ const Address = () => {
                 />
               </svg>
             </div>
-            <div className="mt-3">
-              <h3 className="text-lg font-semibold text-color ">Email</h3>
-              <p className="mt-1 text-gray-600 ">
-                services@arcsynergylimited.com
-              </p>
+            <div className="mt-3 md:mt-[1.5rem]">
+              <h3 className="text-lg md:text-2xl font-bold text-color ">
+                Email
+              </h3>
+              <p className="mt-1 md:mt-[1.5rem] text-color ">services@arcsynergylimited.com</p>
             </div>
           </div>
           {/* End Icon Block */}
@@ -80,11 +80,11 @@ const Address = () => {
                 />
               </svg>
             </div>
-            <div className="mt-3">
-              <h3 className="text-lg font-semibold text-gray-800 ">
+            <div className="mt-3 md:mt-[1.5rem]">
+              <h3 className="text-lg md:text-2xl font-bold text-color  ">
                 Telephone
               </h3>
-              <p className="mt-1 text-gray-600 ">+2348022294836</p>
+              <p className="mt-1 md:mt-[1.5rem] text-color ">+2348022294836</p>
             </div>
           </div>
           {/* End Icon Block */}

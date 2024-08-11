@@ -6,13 +6,9 @@ const Footer = () => {
     <footer className=" relative mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-[url('/assets/gas.jpeg')] bg-cover bg-center bg-no-repeat">
       <div className="absolute inset-0 bg-white opacity-80"></div>
       {/* Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-5 relative z-10">
+      <div className="flex items-center flex-col md:flex-row md:justify-between gap-5 relative z-10">
         <div>
-          <Link
-            className="flex-none text-xl font-semibold text-black focus:outline-none "
-            href="/"
-            aria-label="Brand"
-          >
+          <Link className="focus:outline-none " href="/" aria-label="Brand">
             <Image
               alt="logo"
               src={"/assets/Logo.png"}
@@ -22,34 +18,34 @@ const Footer = () => {
           </Link>
         </div>
         {/* End Col */}
-        <ul className="text-center">
-          <li className="inline-block relative pe-8  ">
+        <ul className="flex flex-col items-center md:flex-row gap-4 ">
+          <li className=" ">
             <Link
-              className="inline-flex gap-x-2 text-sm text-color font-bold hover:text-gray-800 focus:outline-none focus:text-gray-800  "
+              className=" text-sm text-color font-bold hover:text-gray-800 focus:outline-none focus:text-gray-800  "
               href="/"
             >
               Home
             </Link>
           </li>
-          <li className="inline-block relative pe-8">
+          <li className="">
             <Link
-              className="inline-flex gap-x-2 text-sm text-color font-bold hover:text-gray-800 focus:outline-none focus:text-gray-800  "
+              className="text-sm text-color font-bold hover:text-gray-800 focus:outline-none focus:text-gray-800  "
               href="/about"
             >
               About us
             </Link>
           </li>
-          <li className="inline-block relative pe-8  ">
+          <li className="">
             <Link
-              className="inline-flex gap-x-2 text-sm text-color font-bold hover:text-gray-800 focus:outline-none focus:text-gray-800  "
+              className="text-sm text-color font-bold hover:text-gray-800 focus:outline-none focus:text-gray-800  "
               href="/contact"
             >
               Contact us
             </Link>
           </li>
-          <li className="inline-block relative pe-8">
+          <li className="">
             <Link
-              className="inline-flex gap-x-2 text-sm text-color font-bold hover:text-gray-800 focus:outline-none focus:text-gray-800  "
+              className="text-sm text-color font-bold hover:text-gray-800  "
               href=""
             >
               Download profile
@@ -58,7 +54,7 @@ const Footer = () => {
         </ul>
         {/* End Col */}
         {/* Social Brands */}
-        <div className="md:text-end space-x-2">
+        <div className="md:text-end">
           {/* facebook */}
           <a
             className="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-color hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none "
@@ -140,13 +136,16 @@ const Footer = () => {
         {/* End Social Brands */}
       </div>
       {/* End Grid */}
-      <div className="flex flex-wrap justify-center items-center gap-4 mt-4 mx-auto max-w-4xl relative z-10">
-        <span className="text-sm text-color">
+      <div className="flex flex-col justify-center items-center md:flex-row gap-4 mt-4 mx-auto max-w-4xl relative z-10">
+        <span className="text-sm text-color hidden sm:block">
           © 2024 Arc Synergy Limited. All rights reserved.
         </span>
         <span className="underline text-sm text-color">Privacy Policy</span>
         <span className="underline text-sm text-color">Terms of Service</span>
         <span className="underline text-sm text-color">Cookies Settings</span>
+        <span className="text-sm text-color sm:hidden">
+          © 2024 Arc Synergy Limited. All rights reserved.
+        </span>
       </div>
     </footer>
   );

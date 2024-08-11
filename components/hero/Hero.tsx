@@ -19,7 +19,7 @@ const Hero = () => {
                 <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/hero.png')] bg-cover bg-center bg-no-repeat">
                   <div className="absolute inset-0 bg-black opacity-65"></div>
                   <div className="mt-auto w-full ps-5 pb-5 md:ps-10 md:pb-10 relative z-10">
-                    <h2 className="block text-white text-xl md:text-[3.5rem] font-bold mb-2 leading-tight">
+                    <h2 className="block text-white text-[2.5rem] md:text-[3.5rem] font-bold mb-6 leading-tight">
                       <span className="block">Powering Progress,</span>
                       <span className="block">Delivering Excellence</span>
                     </h2>
@@ -30,7 +30,7 @@ const Hero = () => {
                       technical support services to the energy industry in
                       Africa.
                     </span>
-                    <div className="mt-5">
+                    <div className="mt-6">
                       <button
                         type="button"
                         className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-[#A0CA3C] bg-[#A0CA3C] text-white  shadow-sm  focus:outline-none disabled:opacity-50 disabled:pointer-events-none "

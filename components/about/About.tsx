@@ -105,10 +105,10 @@ const About = () => {
     <>
       {/* Icon Blocks */}
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <h2 className=" text-[#2A2B6A] font-bold text-2xl md:text-5xl mb-4">
+        <h2 className=" text-[#2A2B6A] font-bold text-[2rem] md:text-5xl mb-4">
           We are Partners in Progess
         </h2>
-        <p className="text-color mt-4 md:text-[1.25rem]">
+        <p className="text-color mt-[1.25rem] md:text-[1.25rem]">
           <span className="md:block">
             Our commitment to excellence, innovation, and sustainable
           </span>
@@ -117,10 +117,10 @@ const About = () => {
           </span>
           <span className="md:block">the sectors that we operate in.</span>
         </p>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 mt-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 mt-8">
           {/* Icon Block */}
           {Abouts.map((about, index) => (
-            <div key={index} className="flex flex-col h-full">
+            <div key={index} className="flex flex-col h-full mb-8">
               <div className="flex items-center mb-5">
                 <div className="relative flex justify-center items-center size-12 bg-white rounded-xl ">
                   {about.icon}

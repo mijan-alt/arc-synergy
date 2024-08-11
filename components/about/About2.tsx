@@ -18,19 +18,19 @@ const About2 = () => {
                   Arc Synergy Limited
                 </h2>
                 <p className="text-black md:text-[1.125rem]">
-                  <span className="md:block">
+                  <span className="block ">
                     Arc Synergy Limited is an indigenous energy services company
                     incorporated to deliver excellent procurement and technical
                     support services to the energy industry in Africa
                   </span>
 
-                  <span className='md:block md:mt-1'>
+                  <span className='block md:mt-4'>
                     Our commitment to excellence, innovation, and sustainable
                     practices positions us as a preferred partner for players in
                     each of the sectors that we operate in.
                   </span>
             
-                  <span className='md:block md:mt-1'>
+                  <span className='block md:mt-4'>
                     We are committed to delivering high-quality, innovative
                     solutions across our range of marine and oil & gas services.
                     Our integrated approach allows us to offer comprehensive

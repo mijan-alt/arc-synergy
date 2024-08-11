@@ -10,7 +10,7 @@ const Commitment = () => {
           {/* Grid */}
           <div className="grid gap-12">
             <div className="relative z-10">
-              <h2 className="text-white font-bold md:text-5xl text-center ">
+              <h2 className="text-white font-bold text-[2.5rem] md:text-5xl text-center ">
                 We are committed to Excellence
               </h2>
               <p className="mt-3 text-white text-center md:text-[1.125rem] ">
@@ -21,7 +21,7 @@ const Commitment = () => {
                 and dedication to safety and environmental responsibility.
               </p>
             </div>
-            <button className="px-4 py-2 bg-[#A0CA3C] rounded-sm relative z-10 w-fit m-auto text-color font-bold">
+            <button className="px-6 py-2 bg-[#A0CA3C] rounded-md relative z-10 w-fit m-auto text-white font-bold">
               Download our profile
             </button>
           </div>
