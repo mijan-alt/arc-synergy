@@ -14,11 +14,12 @@ export const metadata: Metadata = {
   description: "Energy Company",
   openGraph: {
     title: "Arc Synergy",
-    description: "Energy Company providing services in Africa",
+    description:
+      "Arc Synergy Limited is an indigenous energy services company delivering excellent procurement and technical support services to the energy industry in Africa",
     url: "https://arc-synergy.vercel.app/",
     images: [
       {
-        url: "https://arc-synergy.vercel.app/assets/hero.png",
+        url: "https://arc-synergy.vercel.app/assets/arc-synergy.png",
         width: 800,
         height: 600,
         alt: "Arc Synergy Logo",
@@ -28,10 +29,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@arcsynergyltd",
+    site: "@MijanRichard",
     title: "Arc Synergy",
-    description: "Energy Company providing services in Africa",
-    images: ["https://arc-synergy.vercel.app/assets/hero.png"],
+    description:
+      "Arc Synergy Limited is an indigenous energy services company delivering excellent procurement and technical support services to the energy industry in Africa",
+    images: ["https://arc-synergy.vercel.app/assets/arc-synergy.png"],
   },
   alternates: {
     canonical: "https://arc-synergy.vercel.app/",
