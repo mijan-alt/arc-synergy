@@ -59,7 +59,7 @@ const Footer = () => {
             {/* facebook */}
             <a
               className="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-color hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none "
-              href="#"
+              href="http://facebook.com/arcsynergylimited"
             >
               <svg
                 width="24"
@@ -78,7 +78,7 @@ const Footer = () => {
             {/* instagram */}
             <a
               className="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-color hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none "
-              href="#"
+              href="https://www.instagram.com/arcsynergylimited/"
             >
               <svg
                 width="24"
@@ -98,7 +98,7 @@ const Footer = () => {
             {/* twitter  X*/}
             <a
               className="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-color hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none "
-              href="#"
+              href="https://twitter.com/arcsynergyltd"
             >
               <svg
                 width="24"
@@ -116,7 +116,7 @@ const Footer = () => {
             {/* Linkedin */}
             <a
               className="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-color hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none "
-              href="#"
+              href="https://www.linkedin.com/company/arcsynergylimited"
             >
               <svg
                 width="24"
