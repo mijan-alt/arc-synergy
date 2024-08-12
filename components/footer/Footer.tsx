@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className=" relative mt-auto w-full py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-[url('/assets/gas.jpeg')] bg-cover bg-center bg-no-repeat">
-      <div className="absolute inset-0 bg-white opacity-80"></div>
+      <div className="absolute inset-0 bg-white opacity-90"></div>
       {/* Grid */}
       <div className="max-w-[85rem] mx-auto">
         <div className="flex items-center flex-col md:flex-row md:justify-between gap-5 relative z-10">
@@ -137,7 +137,7 @@ const Footer = () => {
           {/* End Social Brands */}
         </div>
         {/* End Grid */}
-        <hr className="mt-2 border border-b-gray-400" />
+        <hr className="mt-2 border-t-2 border-gray-800" />
 
         <div className="flex flex-col justify-center items-center md:flex-row gap-4 mt-4 mx-auto max-w-4xl relative z-10">
           <span className="text-sm text-color hidden sm:block">
