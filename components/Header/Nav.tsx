@@ -26,6 +26,45 @@ const Nav = () => {
             {/* Collapse Button */}
             <button
               type="button"
+              className="hs-collapse-toggle md:hidden relative size-9 flex justify-center items-center font-medium text-[12px]  focus:outline-none  disabled:opacity-50 disabled:pointer-events-none "
+              id="hs-header-base-collapse"
+              aria-expanded="false"
+              aria-controls="hs-header-base"
+              aria-label="Toggle navigation"
+              data-hs-collapse="#hs-header-base"
+            >
+              <svg
+                className="hs-collapse-open:hidden"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 12H40V16H8V12ZM16 22H40V26H16V22ZM26 32H40V36H26V32Z"
+                  fill="#2A2B6A"
+                />
+              </svg>
+              <svg
+                className="hs-collapse-open:block shrink-0 hidden size-5"
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#2A2B6A"
+                strokeWidth={2}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+              </svg>
+              <span className="sr-only">Toggle navigation</span>
+            </button>
+            {/* <button
+              type="button"
               className="hs-collapse-toggle md:hidden relative size-9 flex justify-center items-center font-medium text-[12px] rounded-lg border border-gray-200 text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none "
               id="hs-header-base-collapse"
               aria-expanded="false"
@@ -65,7 +104,7 @@ const Nav = () => {
                 <path d="m6 6 12 12" />
               </svg>
               <span className="sr-only">Toggle navigation</span>
-            </button>
+            </button> */}
             {/* End Collapse Button */}
           </div>
           {/* Collapse */}
@@ -79,7 +118,7 @@ const Nav = () => {
                 <div className="grow">
                   <div className="flex flex-col md:flex-row md:justify-end md:items-center gap-0.5 md:gap-1">
                     <Link
-                      className={`p-2 flex items-center text-sm ${
+                      className={`p-2 flex items-center ${
                         pathname == "/" && "active-border"
                       } hover:active-border focus:outline-none text-color `}
                       href="/"
@@ -103,10 +142,8 @@ const Nav = () => {
                       Home
                     </Link>
 
-                   
-
                     <Link
-                      className={`p-2 flex items-center text-sm ${
+                      className={`p-2 flex items-center  ${
                         pathname == "/about" && "active-border"
                       } hover:active-border focus:outline-none text-color `}
                       href="/about"
@@ -129,7 +166,7 @@ const Nav = () => {
                       About Us
                     </Link>
                     <Link
-                      className={`p-2 flex items-center text-sm ${
+                      className={`p-2 flex items-center ${
                         pathname == "/contact" && "active-border"
                       } hover:active-border focus:outline-none text-color `}
                       href="/contact"
@@ -155,11 +192,11 @@ const Nav = () => {
                     </Link>
                   </div>
                 </div>
-             
+
                 {/* Button Group */}
                 <button
                   type="button"
-                  className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium  border border-transparent blue-background text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+                  className="py-3 px-4 inline-flex items-center gap-x-2 font-medium  border border-transparent blue-background text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
                 >
                   Download Profile
                 </button>

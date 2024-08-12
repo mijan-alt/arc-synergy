@@ -104,7 +104,7 @@ const About = () => {
   return (
     <>
       {/* Icon Blocks */}
-      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto relative z-10">
         <h2 className=" text-[#2A2B6A] font-bold text-[2rem] md:text-5xl mb-4">
           We are Partners in Progess
         </h2>

@@ -7,7 +7,7 @@ const Mission = () => {
       {/* Icon Blocks */}
       <div className="px-4 py-10 bg-gray-100 sm:px-6 lg:px-8 lg:py-14 mx-auto relative">
 
-        <div className="absolute top-0 right-0">
+        <div className="absolute sm:top-0 right-0 bottom-0 ">
           <img src={'/assets/pattern.png'} alt="pattern" />
         </div>
         <div className="max-w-[912px] mx-auto relative z-10">
