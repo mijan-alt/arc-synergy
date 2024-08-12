@@ -158,17 +158,7 @@ const Footer = () => {
         {/* End Grid */}
         <hr className="mt-12 border-t-2 border-gray-800" />
 
-        <div className="flex flex-col justify-center items-center md:flex-row gap-4 mt-6 mx-auto max-w-4xl relative z-10">
-          <span className="text-sm text-color hidden sm:block">
-            © 2024 Arc Synergy Limited. All rights reserved.
-          </span>
-          <span className="underline text-sm text-color">Privacy Policy</span>
-          <span className="underline text-sm text-color">Terms of Service</span>
-          <span className="underline text-sm text-color">Cookies Settings</span>
-          <span className="text-sm text-color mt-8 sm:hidden">
-            © 2024 Arc Synergy Limited. All rights reserved.
-          </span>
-        </div>
+       
       </div>
     </footer>
   );
