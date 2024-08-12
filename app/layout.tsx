@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://arc-synergy.vercel.app/",
     images: [
       {
-        url: "https://arc-synergy.vercel.app/assets/Logo.png",
+        url: "https://arc-synergy.vercel.app/assets/hero.png",
         width: 800,
         height: 600,
         alt: "Arc Synergy Logo",
