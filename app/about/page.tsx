@@ -7,6 +7,7 @@ import Values from '@/components/about/Values'
 import VisionMission from '@/components/about/VisionMission'
 import AboutHero from '@/components/about/AboutHero'
 import Footer from '@/components/footer/Footer'
+import Vission from '@/components/about/Vission'
 
 
 const page = () => {
@@ -17,8 +18,9 @@ const page = () => {
       <About2 />
       <BusinessDivision />
       <Values />
-      <VisionMission />
-      <Footer/>
+      {/* <VisionMission /> */}
+      <Vission/>
+    
       </>
   )
 }

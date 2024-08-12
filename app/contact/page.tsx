@@ -10,7 +10,7 @@ const page = () => {
             <Nav />
             <ContactHero />
             <Address />
-            <Footer/>
+           
         </>
   )
 }

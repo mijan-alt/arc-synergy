@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Albert_Sans } from "next/font/google";
 import PrelineScript from "@/components/preline/Preline";
+import Footer from "@/components/footer/Footer";
 
 
 
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={sans.className}>{children}</body>
+      <body className={sans.className}>
+        {children}
+        <Footer/>
+      </body>
       <PrelineScript />
     </html>
   );

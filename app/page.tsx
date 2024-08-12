@@ -16,7 +16,7 @@ export default function Home() {
       <Mission/>
       <About />
       <Commitment />
-      <Footer/>
+     
     </>
   );
 }
