@@ -37,7 +37,7 @@ const Values = () => {
   return (
     <>
       {/* Icon Blocks */}
-      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-16 lg:py-14 mx-auto">
         <div className="max-w-2xl mb-12">
           <h2 className="text-4xl font-bold text-color md:text-5xl md:leading-tight ">
              Our Values

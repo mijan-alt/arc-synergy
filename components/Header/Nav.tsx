@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <>
       <header className="sticky top-0 flex flex-wrap  md:justify-start md:flex-nowrap z-50 w-full bg-white border-b border-gray-200">
-        <nav className="relative max-w-[85rem] w-full mx-auto md:flex md:items-center md:justify-between md:gap-3 py-2 px-4 sm:px-6 lg:px-8">
+        <nav className="relative max-w-[85rem] w-full mx-auto md:flex md:items-center md:justify-between md:gap-3 py-2 px-4 sm:px-6 lg:px-16">
           <div className="flex justify-between items-center gap-x-1">
             <Link
               className="flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80 "
@@ -196,7 +196,7 @@ const Nav = () => {
                 {/* Button Group */}
                 <button
                   type="button"
-                  className="py-3 px-4 inline-flex items-center gap-x-2 font-medium  border border-transparent blue-background text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+                  className="py-3 px-4 inline-flex items-center gap-x-2 font-medium  border border-transparent blue-background text-white focus:outline-none disabled:opacity-50 disabled:pointer-events-none"
                 >
                   Download Profile
                 </button>

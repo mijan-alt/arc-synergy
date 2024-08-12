@@ -4,7 +4,7 @@ const Vission = () => {
   return (
     <div className="flex flex-col sm:flex-row  mb-4">
       <div className="bg-[#ECF4D8] flex flex-row-reverse basis-1/2 py-4 ">
-        <div className="max-w-[42.5rem] px-4 ">
+        <div className="max-w-[42.5rem] px-4 lg:pl-16 ">
           <h3 className="text-[1.125rem] font-medium text-start text-color ">
             Our Vision
           </h3>
@@ -17,7 +17,7 @@ const Vission = () => {
         </div>
       </div>
       <div className="bg-[#DFEDBE] basis-1/2 py-4">
-        <div className=" max-w-[42.5rem] ml-4">
+        <div className=" max-w-[42.5rem] ml-4 lg:pr-16">
           <h3 className="text-[1.125rem] font-medium text-start text-color ">
             Our mission
           </h3>

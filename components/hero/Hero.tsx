@@ -13,7 +13,7 @@ const Hero = () => {
               <div className="w-full">
                 <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/hero.png')] bg-cover bg-center bg-no-repeat">
                   <div className="absolute inset-0 bg-black opacity-65"></div>
-                  <div className="mt-auto  max-w-[85rem] w-full l ps-5 pb-5 md:ps-10 md:pb-10 relative z-10 mx-auto">
+                  <div className="mt-auto  max-w-[85rem] w-full l ps-5 pb-5 md:ps-10 md:pb-10 lg:px-16 relative z-10 mx-auto">
                     <h2 className="block text-white text-[2.5rem] md:text-[3.5rem] font-bold mb-6 leading-tight">
                       <span className="block">Powering Progress,</span>
                       <span className="block">Delivering Excellence</span>

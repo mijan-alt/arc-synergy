@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <footer className=" relative mt-auto w-full py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-[url('/assets/gas.jpeg')] bg-cover bg-center bg-no-repeat">
+    <footer className=" relative mt-auto w-full py-10 px-4 sm:px-6 lg:px-16 mx-auto bg-[url('/assets/gas.jpeg')] bg-cover bg-center bg-no-repeat">
       <div className="absolute inset-0 bg-white opacity-90"></div>
       {/* Grid */}
       <div className="max-w-[85rem] mx-auto">

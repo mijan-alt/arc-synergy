@@ -4,7 +4,7 @@ const About2 = () => {
   return (
     <>
       {/* Features */}
-      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-16 lg:py-14 mx-auto">
         {/* Grid */}
         <div className="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
           <div className="mb-9 sm:mt-10 lg:mt-0">
