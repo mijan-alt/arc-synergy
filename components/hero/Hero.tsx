@@ -1,7 +1,16 @@
+"use client"
 import React from "react";
 import { MoveRight } from "lucide-react";
 
 const Hero = () => {
+
+   const handleScroll = (e:any) => {
+     e.preventDefault();
+     const missionSection = document.querySelector("#mission");
+     if (missionSection) {
+       missionSection.scrollIntoView({ behavior: "smooth" });
+     }
+   };
   return (
     <div>
       {/* Slider */}
@@ -27,6 +36,7 @@ const Hero = () => {
                     </span>
                     <div className="mt-6">
                       <button
+                        onClick={handleScroll}
                         type="button"
                         className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium border border-[#A0CA3C] bg-[#A0CA3C] text-white  shadow-sm  focus:outline-none disabled:opacity-50 disabled:pointer-events-none "
                       >
