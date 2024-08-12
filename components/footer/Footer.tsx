@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="absolute inset-0 bg-white opacity-90"></div>
       {/* Grid */}
       <div className="max-w-[85rem] mx-auto">
-        <div className="flex items-center flex-col md:flex-row md:justify-between gap-5 relative z-10">
+        <div className="flex items-center flex-col md:flex-row md:justify-between gap-12 relative z-10">
           <div>
             <Link className="focus:outline-none " href="/" aria-label="Brand">
               <Image
