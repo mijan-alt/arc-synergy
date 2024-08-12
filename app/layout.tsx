@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://arc-synergy.vercel.app/",
     images: [
       {
-        url: "/assets/Logo.png",
+        url: "https://arc-synergy.vercel.app/assets/Logo.png",
         width: 800,
         height: 600,
         alt: "Arc Synergy Logo",
@@ -28,9 +28,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@arcsynergy",
+    site: "@arcsynergyltd",
     title: "Arc Synergy",
     description: "Energy Company providing services in Africa",
+    images: ["https://arc-synergy.vercel.app/assets/hero.png"],
   },
   alternates: {
     canonical: "https://arc-synergy.vercel.app/",
