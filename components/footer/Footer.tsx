@@ -55,7 +55,7 @@ const Footer = () => {
           </ul>
           {/* End Col */}
           {/* Social Brands */}
-          <div className="md:text-end">
+          <div className="md:text-end flex flex-row gap-3">
             {/* facebook */}
             <a
               className="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-color hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none "
