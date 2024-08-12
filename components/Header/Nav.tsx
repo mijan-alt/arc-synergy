@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <>
       <header className="sticky top-0 flex flex-wrap  md:justify-start md:flex-nowrap z-50 w-full bg-white border-b border-gray-200">
-        <nav className="relative max-w-[85rem] w-full mx-auto md:flex md:items-center md:justify-between md:gap-3 py-2 px-4 sm:px-6 lg:px-16">
+        <nav className="relative max-w-[85rem] w-full mx-auto md:flex md:items-center md:justify-between md:gap-8 py-2 px-4 sm:px-6 lg:px-16">
           <div className="flex justify-between items-center gap-x-1">
             <Link
               className="flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80 "
@@ -114,7 +114,7 @@ const Nav = () => {
             aria-labelledby="hs-header-base-collapse"
           >
             <div className="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300  ">
-              <div className="py-2 md:py-0  flex flex-col md:flex-row md:items-center gap-0.5 md:gap-1">
+              <div className="py-2 md:py-0  flex flex-col md:flex-row md:items-center gap-0.5 md:gap-8">
                 <div className="grow">
                   <div className="flex flex-col md:flex-row md:justify-end md:items-center gap-0.5 md:gap-1">
                     <Link
@@ -196,7 +196,7 @@ const Nav = () => {
                 {/* Button Group */}
                 <button
                   type="button"
-                  className="py-3 px-4 inline-flex items-center gap-x-2 font-medium  border border-transparent blue-background text-white focus:outline-none disabled:opacity-50 disabled:pointer-events-none"
+                  className="py-2 px-5 inline-flex items-center  font-medium  border border-transparent blue-background text-white focus:outline-none disabled:opacity-50 disabled:pointer-events-none"
                 >
                   Download Profile
                 </button>
