@@ -108,15 +108,13 @@ const About = () => {
         <h2 className=" text-[#2A2B6A] font-bold text-[2rem] md:text-5xl mb-4">
           We are Partners in Progess
         </h2>
-        <p className="text-color mt-[1.25rem] md:text-[1.25rem]">
-          <span className="md:block">
-            Our commitment to excellence, innovation, and sustainable
-          </span>
-          <span className="md:block">
-            practices positions us as a preferred partner for players in each of
-          </span>
-          <span className="md:block">the sectors that we operate in.</span>
-        </p>
+        <div className="md:flex md:justify-center">
+          <p className="text-color mt-5 md:text-xl max-w-[38.75rem]">
+            Our commitment to excellence, innovation, and sustainable practices
+            positions us as a preferred partner for players in each of the
+            sectors that we operate in.
+          </p>
+        </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 mt-8">
           {/* Icon Block */}
           {Abouts.map((about, index) => (

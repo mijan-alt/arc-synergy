@@ -82,17 +82,30 @@ const BusinessDivision = () => {
           </div>
         ))}
       </div>
-      <div className="mt-8 flex flex-row items-center justify-between md:space-x-2">
-        <Link href={'/contact'}>
+      <div className="mt-8 flex flex-row items-center justify-between md:justify-start md:space-x-4">
+        <Link href={"/contact"}>
           <button
             type="button"
-            className="py-3 px-4 inline-flex items-center gap-x-2  border border-black bg-white shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none "
+            className="py-3 px-4 inline-flex items-center gap-x-2 border border-black bg-white shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
           >
             Contact us
           </button>
         </Link>
-
-        <span className="md:self-start">Download our profile</span>
+        <div className="flex flex-row items-center space-x-2 cursor-pointer">
+          <span>Download our profile</span>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.70697 16.9496L15.414 11.2426L9.70697 5.53564L8.29297 6.94964L12.586 11.2426L8.29297 15.5356L9.70697 16.9496Z"
+              fill="black"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   );
